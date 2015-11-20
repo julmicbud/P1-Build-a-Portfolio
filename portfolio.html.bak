@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ut f-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Julia Hendrickson</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="http://placehold.it/120x120" alt="Julia Hendrickson's Logo" title="Logo" class="img-responsive">
+		</div>
+		<div class="col-md-8 text-right text-uppercase">
+			<h1>Julia Hendrickson</h1>
+			<h4>Graphic Designer and Front-End Developer</h4>
+		</div>
+	</div>
+	<div>
+	<hr>	
+	</div>	
+	<div class="row">
+		<div class="col-md-12"><img src="http://placehold.it/1050x450" alt="Julia Hendrickson's banner" title="banner" class="img-responsive">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Featured Work</h2>
+		</div>
+	</div>
+	<div class="row background-purple top-padding">
+		<div class="col-md-4"><img src="http://placehold.it/350x225" alt="project1" title="project1" class="img-responsive"></div>
+		<div class="col-md-4"><img src="http://placehold.it/350x225" alt="project2 title="project2 class="img-responsive"></div>
+		<div class="col-md-4"><img src="http://placehold.it/350x225" alt="project3" title="project3" class="img-responsive"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-12"></div>
+	</div>
+	</div>
+</body>
+</html>
