@@ -1,368 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Julia Hendrickson</title>
-	<link rel="stylesheet"  type="text/css" href="css/bootstrap.css">
-	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julia Hendrickson</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-	<div class="container">
-	<header><div class="row font">
-		<div class="col-md-2 top-padding">
-				<img src="images/logojh.svg" alt="Julia Hendrickson's Logo" title="Logo">
-		</div>
-		<div class="col-md-10 text-right text-uppercase top-padding">
-			<h1>Julia Hendrickson</h1>
-			<h4>Graphic Designer and Front-End Developer</h4>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<img src="images/banner.jpg" 
-				sizes="(max-width: 1050px) 100vw, 
-							(min-width: 160px) 100vw"
-				srcset="images/banner-160.jpg 160w, 
+    <div class="container">
+        <header>
+            <div class="row font">
+                <div class="col-md-2 top-padding">
+                    <img src="images/logojh.svg" alt="Julia Hendrickson's Logo" title="Logo">
+                </div>
+                <div class="col-md-10 text-right text-uppercase top-padding">
+                    <h1>Julia Hendrickson</h1>
+                    <h4>Graphic Designer and Front-End Developer</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="images/banner.jpg" sizes="(max-width: 1050px) 100vw, 
+							(min-width: 160px) 100vw" srcset="images/banner-160.jpg 160w, 
 								images/banner-320.jpg 320w, 
 								images/banner-640.jpg 640w, 
-								images/banner-1050.jpg 1050w" 
-				alt="banner"/>
-			</div>
-	</div>
-</header>
-<br/>
-	<nav class="nav">
-		<div class="navigation">
-			<ul class="nav-list" style="list-style:none;">
-    		<li class="nav-item"><a href="#portfolio">Portfolio</a></li>
-    		<li class="nav-item"><a href="#education">Education</a></li>
-    		<li class="nav-item"><a href="#skills">Skills</a></li>
-    		<li class="nav-item"><a href="#contact">Contact</a></li>
-  		</ul>
-		</div>
-	</nav>
-	<div class="line">
-	<hr>
-	</div>
-<section>
-	<div class="row">
-		<div class="col-md-12 font text-uppercase">
-			<h3 id="portfolio">Portfolio</h3>
-		</div>
-	</div>
-	<div class="row top-padding">
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/babyShowerbutton350x225.jpg" alt="project1" title="project1" class="img-responsive displayed-image" data-toggle="modal" data-target="#project1">
-			<h4>Baby Shower Invitation</h4>
-		</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/Kurlemannbutton350x225.jpg" alt="project2" title="project2" class="img-responsive displayed-image" data-toggle="modal" data-target="#project2">
-			<h4>Flyer</h4>
-		</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/COTRbutton350x225.jpg" alt="project3" title="project3" class="img-responsive displayed-image" data-toggle="modal" data-target="#project3">
-			<h4>Business Card</h4>
-		</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/epostcard1button350x225.jpg" alt="project4" title="project4" class="img-responsive displayed-image" data-toggle="modal" data-target="#project4">
-			<h4>Epostcard</h4>
-			</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/epostcard2button350x225.jpg" alt="project5" title="project5" class="img-responsive displayed-image" data-toggle="modal" data-target="#project5">
-			<h4>Epostcard</h4>
-			</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/JimsLandscapingbutton350x225.jpg" alt="project6" title="project6" class="img-responsive displayed-image" data-toggle="modal" data-target="#project6">
-			<h4>Postcard</h4>
-		</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/Lyndsayinvite350x225.jpg" alt="project7" title="project7" class="img-responsive displayed-image" data-toggle="modal" data-target="#project7">
-			<h4>Wedding Invitation</h4>
-			</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/pictureyourself350x225.jpg" alt="project8" title="project8" class="img-responsive displayed-image" data-toggle="modal" data-target="#project8">
-			<h4>Postcard</h4>
-			</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/Summerfair2-350x225.jpg" alt="project9" title="project9" class="img-responsive displayed-image" data-toggle="modal" data-target="#project9">
-			<h4>Postcard</h4>
-		</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/sperm-350x225.jpg" alt="project10" title="project10" class="img-responsive displayed-image" data-toggle="modal" data-target="#project10">
-			<h4>Logo and Tags</h4>
-			</div>
-		<div class="col-md-4 text-center font text-uppercase">
-			<img src="images/summerfairbutton350x225.jpg" alt="project11" title="project11" class="img-responsive displayed-image" data-toggle="modal" data-target="#project11">
-			<h4>Postcard and Directional Signage</h4>
-			</div>
-		<div class="col-md-4 text-center font text-uppercase">
-		</div>
-	</div>
-</section>
-	<hr>
-	<section>
-	<div class="row">
-		<div class="col-md-12 font text-uppercase">
-			<h3 id="education">Education</h3>
-			<br>
-			<h4>
+								images/banner-1050.jpg 1050w" alt="banner" />
+                </div>
+            </div>
+        </header>
+        <br/>
+        <nav class="nav">
+            <div class="navigation">
+                <ul class="nav-list" style="list-style:none;">
+                    <li class="nav-item"><a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item"><a href="#education">Education</a>
+                    </li>
+                    <li class="nav-item"><a href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item"><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="line">
+            <hr>
+        </div>
+        <section>
+            <div class="row">
+                <div class="col-md-12 font text-uppercase">
+                    <h3 id="portfolio">Portfolio</h3>
+                </div>
+            </div>
+            <div class="row top-padding">
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/babyShowerbutton350x225.jpg" alt="project1" title="project1" class="img-responsive displayed-image" data-toggle="modal" data-target="#project1">
+                    <h4>Baby Shower Invitation</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/Kurlemannbutton350x225.jpg" alt="project2" title="project2" class="img-responsive displayed-image" data-toggle="modal" data-target="#project2">
+                    <h4>Flyer</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/COTRbutton350x225.jpg" alt="project3" title="project3" class="img-responsive displayed-image" data-toggle="modal" data-target="#project3">
+                    <h4>Business Card</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/epostcard1button350x225.jpg" alt="project4" title="project4" class="img-responsive displayed-image" data-toggle="modal" data-target="#project4">
+                    <h4>Epostcard</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/epostcard2button350x225.jpg" alt="project5" title="project5" class="img-responsive displayed-image" data-toggle="modal" data-target="#project5">
+                    <h4>Epostcard</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/JimsLandscapingbutton350x225.jpg" alt="project6" title="project6" class="img-responsive displayed-image" data-toggle="modal" data-target="#project6">
+                    <h4>Postcard</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/Lyndsayinvite350x225.jpg" alt="project7" title="project7" class="img-responsive displayed-image" data-toggle="modal" data-target="#project7">
+                    <h4>Wedding Invitation</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/pictureyourself350x225.jpg" alt="project8" title="project8" class="img-responsive displayed-image" data-toggle="modal" data-target="#project8">
+                    <h4>Postcard</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/Summerfair2-350x225.jpg" alt="project9" title="project9" class="img-responsive displayed-image" data-toggle="modal" data-target="#project9">
+                    <h4>Postcard</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/sperm-350x225.jpg" alt="project10" title="project10" class="img-responsive displayed-image" data-toggle="modal" data-target="#project10">
+                    <h4>Logo and Tags</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                    <img src="images/summerfairbutton350x225.jpg" alt="project11" title="project11" class="img-responsive displayed-image" data-toggle="modal" data-target="#project11">
+                    <h4>Postcard and Directional Signage</h4>
+                </div>
+                <div class="col-md-4 text-center font text-uppercase">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="row">
+                <div class="col-md-12 font text-uppercase">
+                    <h3 id="education">Education</h3>
+                    <br>
+                    <h4>
 			University of Cincinnati
 			</h4>
-			<p>&#8226; Social Media for Business Certification</p>
-      <br>
-      <h4>University of Evansville</h4>
-			<p>&#8226; B.S. in Visual communication<br>
-		&#8226; Minor in Mass Communication</p>
-		</div>
-	</div>
-</section>
-	<hr>
-		<section>
-		<div class="row">
-		<div class="col-md-12 font text-uppercase">
-			<h3 id="skills">Skills</h3>
-			<p>&#8226; Excel
-				 &#8226; Word 
-				 &#8226; PowerPoint
-&#8226; Access 
-&#8226; Indesign
-&#8226; Photoshop
-&#8226; Illustrator
-&#8226; Bridge
-&#8226; QuarkXpress
-&#8226; Dreamweaver
-&#8226; Flash
-&#8226; HTML coding
-&#8226; Action Script
-&#8226; CSS
-&#8226; PHP
-&#8226; Javascript 
-&#8226; JQuery
-&#8226; Wordpress
-&#8226; MAC & Window Platform
-&#8226; Facebook
-&#8226; Twitter
-&#8226; LinkedIn
-&#8226; Pintrest
-&#8226; Google+
-&#8226; Instagram
-</p>
-		</div>
-	</div>
-</section>
-	<hr>
-		<section>
-			<div class="row">
-		<div class="col-md-12 font text-uppercase">
-			<h3 id="contact">Contact</h3><br>
-		<a href="mailto:julmicbud@gmail.com"><p>Email me</p></a><br>
-		</div>
-	</div>
-</section>
-	<hr>
-	<footer>
-	<div class="row">
-		<div class="col-md-12 font">
-			<p class="footer">&copy; 2006-2015 Julia Hendrickson All Rights Reserved</p>
-		</div>
-	</div>
+                    <p>&#8226; Social Media for Business Certification</p>
+                    <br>
+                    <h4>University of Evansville</h4>
+                    <p>&#8226; B.S. in Visual communication
+                        <br> &#8226; Minor in Mass Communication</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="row">
+                <div class="col-md-12 font text-uppercase">
+                    <h3 id="skills">Skills</h3>
+                    <p>&#8226; Excel &#8226; Word &#8226; PowerPoint &#8226; Access &#8226; Indesign &#8226; Photoshop &#8226; Illustrator &#8226; Bridge &#8226; QuarkXpress &#8226; Dreamweaver &#8226; Flash &#8226; HTML coding &#8226; Action Script &#8226; CSS &#8226; PHP &#8226; Javascript &#8226; JQuery &#8226; Wordpress &#8226; MAC & Window Platform &#8226; Facebook &#8226; Twitter &#8226; LinkedIn &#8226; Pintrest &#8226; Google+ &#8226; Instagram
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div class="row">
+                <div class="col-md-12 font text-uppercase">
+                    <h3 id="contact">Contact</h3>
+                    <br>
+                    <a href="mailto:julmicbud@gmail.com">
+                        <p>Email me</p>
+                    </a>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-md-12 font">
+                    <p class="footer">&copy; 2006-2015 Julia Hendrickson All Rights Reserved</p>
+                </div>
+            </div>
 
 
 
-</footer>
-	</div>
-	<!-- Modal -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel">Baby Shower Invitation</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/babyshowermodule-1050x473.jpg" alt="Baby Shower Invitation">
-        <p class="font">Software: Indesign and Illustrator</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+        </footer>
     </div>
-  </div>
-</div>
-	<!-- Modal -->
-<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel1">Flyer</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/Kurlemannmodule-1050x473.jpg" alt="Kurlemann Flyer">
-        <p class="font">Software: Indesign and Illustrator</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel">Baby Shower Invitation</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/babyshowermodule-1050x473.jpg" alt="Baby Shower Invitation">
+                    <p class="font">Software: Indesign and Illustrator</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div> 
-	<!-- Modal --> 
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel2">Business Card</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/COTRmodule-1050x473.jpg" alt="Church on the Rock Business Cards">
-        <p class="font">Software: Indesign, Illustrator and Photoshop</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel1">Flyer</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/Kurlemannmodule-1050x473.jpg" alt="Kurlemann Flyer">
+                    <p class="font">Software: Indesign and Illustrator</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div> 
-	<!-- Modal --> 
-<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel3">EPostcard</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/epostcard1module-1050x473.jpg" alt="Epostcard">
-        <p class="font">Software: Photoshop and HTML</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel2">Business Card</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/COTRmodule-1050x473.jpg" alt="Church on the Rock Business Cards">
+                    <p class="font">Software: Indesign, Illustrator and Photoshop</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-	<!-- Modal --> 
-<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel4">EPostcard</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/epostcard2module-1050x473.jpg" alt="epostcard">
-        <p class="font">Software: Photoshop and HTML</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel3">EPostcard</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/epostcard1module-1050x473.jpg" alt="Epostcard">
+                    <p class="font">Software: Photoshop and HTML</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-	<!-- Modal --> 
-<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel5">Postcard</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/jimslandscapingmodule-1050x473.jpg" alt="Jim's Landscaping Postcard">
-        <p class="font">Software: Indesign, Illustrator and Photoshop</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel4">EPostcard</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/epostcard2module-1050x473.jpg" alt="epostcard">
+                    <p class="font">Software: Photoshop and HTML</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div> 
-	<!-- Modal --> 
-<div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel6">Wedding Invitation</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/LyndsayInvitemodule-1050x473.jpg" alt="Wedding Invitations">
-        <p class="font">Software: Indesign and Illustrator</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel5">Postcard</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/jimslandscapingmodule-1050x473.jpg" alt="Jim's Landscaping Postcard">
+                    <p class="font">Software: Indesign, Illustrator and Photoshop</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-	<!-- Modal --> 
-<div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel7">Postcard</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/pictureyourselfmodule-1050x473.jpg" alt="Postcard">
-        <p class="font">Software: Indesign, Illustrator and Photoshop</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel6">Wedding Invitation</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/LyndsayInvitemodule-1050x473.jpg" alt="Wedding Invitations">
+                    <p class="font">Software: Indesign and Illustrator</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div> 
-	<!-- Modal --> 
-<div class="modal fade" id="project9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel8">Postcard</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/summerfair2module-1050x473.jpg" alt="Summerfair Postcard">
-        <p class="font">Software: Indesign, Illustrator and Photoshop</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel7">Postcard</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/pictureyourselfmodule-1050x473.jpg" alt="Postcard">
+                    <p class="font">Software: Indesign, Illustrator and Photoshop</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div> 
-	<!-- Modal --> 
-<div class="modal fade" id="project10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel9" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel9">Logo and Tags</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/spermmodule-1050x473.jpg" alt="Label">
-        <p class="font">Software: Indesign, Illustrator and Photoshop</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel8">Postcard</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/summerfair2module-1050x473.jpg" alt="Summerfair Postcard">
+                    <p class="font">Software: Indesign, Illustrator and Photoshop</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-	<!-- Modal --> 
-<div class="modal fade" id="project11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel10" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font" id="myModalLabel10">Postcard and Directional Signage</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/summerfairmodule1-1050x473.jpg" alt="Postcard and directional signage">
-        <img class="img-responsive" src="images/summerfairmodule2-1050x473.jpg" alt="Postcard and directional signage">
-        <p class="font">Software: Indesign, Illustrator and Photoshop</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel9" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel9">Logo and Tags</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/spermmodule-1050x473.jpg" alt="Label">
+                    <p class="font">Software: Indesign, Illustrator and Photoshop</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>    
+    <!-- Modal -->
+    <div class="modal fade" id="project11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel10" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font" id="myModalLabel10">Postcard and Directional Signage</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/summerfairmodule1-1050x473.jpg" alt="Postcard and directional signage">
+                    <img class="img-responsive" src="images/summerfairmodule2-1050x473.jpg" alt="Postcard and directional signage">
+                    <p class="font">Software: Indesign, Illustrator and Photoshop</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
